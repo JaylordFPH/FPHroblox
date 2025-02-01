@@ -4,7 +4,7 @@ html, body {
 }
 
 body{
-    background-image: url('/valentineWeb/valentine.jpg');
+    background-image: url('valentine.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

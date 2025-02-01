@@ -1,0 +1,52 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    background-image: url('/valentineWeb/valentine.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#messageContainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 20px;
+    background-color: #ffe6e6;
+    border: 2px solid #ff4d4d;
+    border-radius: 10px;
+}
+  
+
+button{
+    padding: 15px 30px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+  
+
+#yesButton{
+    background-color: #ff4d4d;
+    color: white;
+}
+  
+
+#noButton{
+    background-color: #ccc;
+    color: black;
+} 
+
+#mediaContainer {
+    display: none;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
